@@ -7,21 +7,33 @@ const description2 = document.getElementById('description-2');
 const description3 = document.getElementById('description-3');
 
 selection1.addEventListener('click', function(){
-    description1.style.display = "block"
-    description2.style.display = "none"
-    description3.style.display = "none"
+    description1.style.display = "block";
+    description2.style.display = "none";
+    description3.style.display = "none";
+    selection1.style.backgroundColor = "#18898b";
+    selection2.style.removeProperty("background-color");
+    selection3.style.removeProperty("background-color");
  });
 
 selection2.addEventListener('click', function(){
-    description1.style.display = "none"
-    description2.style.display = "block"
-    description3.style.display = "none"
+    description1.style.display = "none";
+    description2.style.display = "block";
+    description3.style.display = "none";
+    selection1.style.removeProperty("background-color");
+    selection2.style.backgroundColor = "#18898b";
+    selection3.style.removeProperty("background-color");
+
  });
 
  selection3.addEventListener('click', function(){
-    description1.style.display = "none"
-    description2.style.display = "none"
-    description3.style.display = "block"
+    description1.style.display = "none";
+    description2.style.display = "none";
+    description3.style.display = "block";
+    selection1.style.removeProperty("background-color");
+    selection2.style.removeProperty("background-color");
+    selection3.style.backgroundColor = "#18898b";
  });
+
+ selection1.style.backgroundColor = "#18898b"
 
 

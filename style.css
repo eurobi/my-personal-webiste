@@ -1,36 +1,63 @@
 body {
-    background: rgb(224, 183, 94);
+    background: white;
+    color: white;
 }
 
 #headline-div {
-    background: white;
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
     text-align: center;
     padding: 100px;
     font-family: 'Trebuchet MS', sans-serif;
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 70px;
+    color: white;
+    
 }
 
 #but-im-not-a-wrapper {
-    background-color: green;
+    background-color: #22c1c3;
     white-space: nowrap;
 }
 
 .selection{
     width: 33%;
-    background-color: blueviolet;
+    background-color: #22c1c3;
     display: inline-block;
     text-align: center;
     padding-top: 30px;
     padding-bottom: 30px;
     font-family: 'Trebuchet MS', sans-serif;
     font-size: 20px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
+
+.selection:hover{
+    background-color: #18898b;
+}
+
+#selection-1{
+    background-color: transparent;
+}
+
+#selection-1:hover{
+    background-color: #18a1a3;
+}
+
+#selection-2:hover{
+    background-color: #18a1a3;
+}
+
+#selection-3:hover{
+    background-color: #18a1a3;
+}
+
+
 .description {
-    background-color: brown;
+    background-color: #18898b;
     padding: 20px;
 }
 
@@ -39,7 +66,7 @@ h1 {
     margin: 0px;
 }
 
-#description-2 {
+#description-1 {
     
 }
 

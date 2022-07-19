@@ -1,3 +1,33 @@
 body {
     background: rgb(224, 183, 94);
 }
+
+#headline-div {
+    background: white;
+    text-align: center;
+    padding: 100px;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+#but-im-not-a-wrapper {
+    background-color: green;
+    white-space: nowrap;
+}
+
+.selection{
+    width: 33%;
+    background-color: blueviolet;
+    display: inline-block;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+#description {
+    background-color: brown;
+}

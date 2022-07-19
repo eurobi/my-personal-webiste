@@ -26,8 +26,27 @@ h1 {
     padding-top: 30px;
     padding-bottom: 30px;
     font-family: 'Trebuchet MS', sans-serif;
+    font-size: 20px;
 }
 
-#description {
+.description {
     background-color: brown;
+    padding: 20px;
+}
+
+.description p {
+    font-size: 16px;
+    margin: 0px;
+}
+
+#description-2 {
+    
+}
+
+#description-2 {
+    display: none;
+}
+
+#description-3 {
+    display: none;
 }

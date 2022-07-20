@@ -1,6 +1,51 @@
 body {
     background: white;
     color: white;
+    margin: 0px;
+}
+
+#code-breaker{
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    top: 0;
+}
+
+#breaker{
+    margin-left: 7.5%;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    background-color: transparent;
+    font-size: 50px;
+    resize: none;
+    outline: none;
+    color: white;
+    border-bottom: 5px solid white;
+    width: 400px;
+}
+
+@keyframes blinker {
+    100% {
+      opacity: 0;
+    }
+  }
+
+#breaker-header{
+    margin-left: 10%;
+    margin-right: 50%;
+    font-size: 50px;
+}
+
+#secret-overlay {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    top: 0;
 }
 
 #headline-div {

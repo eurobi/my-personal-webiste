@@ -34,6 +34,25 @@ selection2.addEventListener('click', function(){
     selection3.style.backgroundColor = "#18898b";
  });
 
- selection1.style.backgroundColor = "#18898b"
+selection1.style.backgroundColor = "#18898b"
+
+const secretOverlay = document.getElementById("secret-overlay")
+const codeBreaker = document.getElementById("code-breaker")
+
+document.addEventListener('keydown', function (e){
+   const breaker = document.getElementById('breaker')
+   if (e.key === "Enter"){
+      if (breaker.value.toLowerCase() === 'jeremy'){
+         codeBreaker.remove()
+         secretOverlay.style.display = 'block'
+      }
+      
+      else {
+         breaker.value = ''
+      }
+      
+   }
+})
+
 
 

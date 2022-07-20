@@ -57,8 +57,9 @@ body {
 #headline-div {
     background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
     text-align: center;
-    padding: 100px;
+    padding: 150px;
     font-family: 'Trebuchet MS', sans-serif;
+    height: 280px;
 }
 
 h1 {
@@ -135,18 +136,22 @@ h1 {
     margin-top: 10px;
     margin-bottom: 10px;
     border-radius: 5px;
+    height: 480px;
 }
 
 
 #work-exp-table{
-    width: 100%;
+    width: 90%;
+    margin-left: 5%;
+    align-content: center;
     border-color: black;
     table-layout: fixed;
     font-family: 'Trebuchet MS', sans-serif;
     font-size: 14px;
-    background-color: #126769;
-    border-radius: 5px;
-    font-style: italic;
+    background-color: white;
+    border-radius: 10px;
+    color: black;
+    margin-top: 80px;
 
     
 }
@@ -168,4 +173,8 @@ th, td{
 
 .table-img{
     width: 25%;
+}
+
+a {
+    color: rgb(205, 142, 5);
 }

@@ -14,7 +14,7 @@ body {
 }
 
 #breaker{
-    margin-left: 7.5%;
+    margin-left: 10%;
     border-top: transparent;
     border-left: transparent;
     border-right: transparent;
@@ -48,7 +48,6 @@ body {
 
 #secret-overlay {
     display: none;
-    position: fixed;
     bottom: 0;
     right: 0;
     left: 0;
@@ -128,4 +127,45 @@ h1 {
 
 #description-3 {
     display: none;
+}
+
+.work-exp{
+    background-color: #18898b;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+
+#work-exp-table{
+    width: 100%;
+    border-color: black;
+    table-layout: fixed;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 14px;
+    background-color: #126769;
+    border-radius: 5px;
+    font-style: italic;
+
+    
+}
+
+th, td{
+    padding: 10px;
+}
+
+#current-logo{
+    width: 80%;
+}
+
+#seatgeek-logo{
+    width: 75%;
+    margin-left: 5%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.table-img{
+    width: 25%;
 }

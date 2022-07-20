@@ -38,6 +38,7 @@ selection1.style.backgroundColor = "#18898b"
 
 const secretOverlay = document.getElementById("secret-overlay")
 const codeBreaker = document.getElementById("code-breaker")
+const failMessage = document.getElementById("fail-message")
 
 document.addEventListener('keydown', function (e){
    const breaker = document.getElementById('breaker')
@@ -48,6 +49,7 @@ document.addEventListener('keydown', function (e){
       }
       
       else {
+         failMessage.innerHTML = `Sorry, but I don't know anyone named ${breaker.value}`
          breaker.value = ''
       }
       

@@ -39,6 +39,13 @@ body {
     font-size: 50px;
 }
 
+#fail-message{
+    margin-left: 10%;
+    margin-right: 50%;
+    font-size: 50px;
+
+}
+
 #secret-overlay {
     display: none;
     position: fixed;
